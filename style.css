@@ -1,0 +1,119 @@
+/* http://www.theodinproject.com/html5-and-css3/positioning-and-floating-elements */
+
+body {
+	width: 100%;
+	background-color: RGB(173,216,230);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.bottom_padding {
+	padding-bottom: 10px;
+}
+
+.column_page {
+	width: 575px;
+}
+
+.figcap {
+	font-size: 80%;
+	color: grey;
+}
+
+.source {
+	font-size: 75%;
+	color: grey;
+}
+
+.sub_heading {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.page_link {
+	text-decoration: none;
+}
+
+.page_link:visited {
+	color: black;
+}
+
+.top_theory {
+	position: absolute;
+	width: 250px;
+	top: 275px
+}
+
+.top_one {}
+
+.top_two {
+	left: 275px;
+}
+
+.top_three {
+	left: 525px
+}
+
+.top_four {
+	left: 800px;
+}
+
+.bot_theory {
+	position: absolute;
+	width: 250px;
+	top: 575px;
+}
+
+.bot_one {}
+
+.bot_two {
+	left: 275px;
+}
+
+.bot_three {
+	left: 525px;
+}
+
+.bot_four {
+	left: 800px;
+}
+
+.straight_line {
+	padding: 5px;
+	border-bottom: 1px solid grey;
+}
+
+.straight_line_short {
+	padding: 5px;
+	width: 20px;
+	border-bottom: 1px solid #404040;
+}
+
+#story {
+	width: 1050px;
+	margin: 20px auto 20px auto;
+	border: 5px solid #d3d3d3;
+	padding: 20px;
+	background-color: white;
+}
+
+#subject {
+	font-weight: bold;
+	font-size: 80%;
+	text-decoration: none;	
+	color: black;
+}
+
+#story_header {
+	font-weight: bold;
+	font-size: 200%;
+	font-style: italic;
+}
+
+#fig {
+	margin: 0px;
+	padding-bottom: 10px;
+	position: relative;
+}
